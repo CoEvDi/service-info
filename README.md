@@ -7,9 +7,9 @@ Description of all backend micro-services and frontend
 
 - [General System Info](#General-System-Info)
 - [Setup](#Setup)
-    -   [Database Setup](#Database-Setup-(for-each-micro-service-except-API-Gateway))
-    -   [Backend Installing](#Backend-Installing-(for-each-micro-service))
-    -   [Backend Running](#Backend-Running-(for-each-micro-service))
+    -   [Database Setup](#Database-Setup)
+    -   [Backend Installing](#Backend-Installing)
+    -   [Backend Running](#Backend-Running)
     -   [Frontend Installing and Running](#Frontend-Installing-and-Running)
 
 
@@ -32,7 +32,9 @@ Description of all backend micro-services and frontend
 
 ## Setup
 
-### Database Setup (for each micro-service except API-Gateway)
+### Database Setup
+
+For each micro-service except API-Gateway:
 
 1.  Install PostgeSQL (Ubuntu):
 
@@ -60,7 +62,9 @@ Description of all backend micro-services and frontend
             GRANT ALL ON DATABASE {dbname} to {username};
 
 
-### Backend Installing (for each micro-service)
+### Backend Installing
+
+For each micro-service:
 
 1.  Install Python3 packages (Ubuntu):
         
@@ -76,7 +80,7 @@ Description of all backend micro-services and frontend
             pip3 install -U -r requirements.txt
 
 
-### Backend Running (for each micro-service)
+### Backend Running
 
 1.  Each backend microservice dynamically takes its settings through YAML config, so copy and rename `config.yaml.template` to `config.yaml` and fill your data
 
