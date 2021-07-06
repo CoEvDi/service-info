@@ -7,9 +7,9 @@ Description of all backend micro-services and frontend
 
 - [General System Info](#General-System-Info)
 - [Setup](#Setup)
-    -   [Database Setup](#Database-Setup)
-    -   [Backend Rnstalling](#Backend-Installing)
-    -   [Backend Running](#Backend-Running)
+    -   [Database Setup](#Database-Setup-(for-each-micro-service-except-API-Gateway))
+    -   [Backend Installing](#Backend-Installing-(for-each-micro-service))
+    -   [Backend Running](#Backend-Running-(for-each-micro-service))
     -   [Frontend Installing and Running](#Frontend-Installing-and-Running)
 
 
