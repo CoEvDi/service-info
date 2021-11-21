@@ -89,7 +89,9 @@ For each micro-service:
 3. Use these run parameters (also available via `python3 main.py --help`):
     -   `-H`/`--Host` - backend host [REQUIRED]
     -   `-P`/`--Port` - backend port [REQUIRED]
-    -   `-CT`/`--Create-Tables` - (Re)Creating database tables before launch [REQUIRED AT FIRST STARTUP]
+    -   `-CT`/`--Create-Tables` - (Re)Creating database tables before launch [REQUIRED AT FIRST STARTUP] on each micro-service with database
 
 
 ### Frontend Installing and Running
+
+Later (but simply download and serve via nginx with setuo from vue-router)
