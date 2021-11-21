@@ -74,8 +74,13 @@ For each micro-service:
 
             git clone git@github.com:CoEvDi/{backend-micro-service}.git
             cd {backend-micro-service}
+
+3.  Install virtual environment (if really needed):
+            
+            python3 -m virtualenv venv
+            . venv/bin/activate
     
-3.  Install and/or update (-U) project dependencies:
+4.  Install and/or update (-U) project dependencies:
 
             pip3 install -U -r requirements.txt
 
